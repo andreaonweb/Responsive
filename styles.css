@@ -1,0 +1,116 @@
+
+@media (max-width: 393px) {
+  body {
+    margin: 0;
+}
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+/*----------------------------------------------------*/
+/* H  E  A  D  E  R */
+/*----------------------------------------------------*/
+.header{
+    background-color: #B8D576;
+    display: flex;
+    flex-direction: column;
+}
+
+.duckLogo {
+  justify-content: center;
+    width:60%;
+    height: 35%;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+ .menu {
+    justify-content: flex-end;
+    position: absolute;
+    /* width: 150px;
+    height: 100px;  */
+     width: 15%;
+    height: 5%; 
+    top: 0;
+    right: 0;
+     margin-bottom:  25%;
+     margin: 5%;
+ }
+
+.eslogan {
+  text-align: center;
+    color: white;
+    font-family:  'Poppins';
+    font-size: 100%;
+    padding:5%;
+}
+/*----------------------------------------------------*/
+/* M  A  I  N  */
+/*----------------------------------------------------*/
+  main{
+    display: flex;
+    justify-content: center;
+
+}
+.catalogo{
+    /* display: flex; */
+    /* flex-direction:column; */
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 25%;
+    margin-right:5%;
+    margin-top: 15%;
+
+    /* margin-bottom: 60px;    Espacio entre las imágenes
+    padding: 250px 30px;
+    margin-left: 220px; */
+}
+
+.pato{
+margin-left:10%;
+margin-right:40%;
+margin-top: 10%;
+ padding:20%;
+ width:45%;
+height: 17%;
+ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+/*----------------------------------------------------*/
+/* F  O  O  T  E  R */
+/*----------------------------------------------------*/
+
+.footer {
+  background-color: #B8D576;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+
+}
+
+.socialIcono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  height: 50px; 
+  margin-bottom: 2%;
+  margin-left: 43%;
+margin-right: 50%;
+}
+.companyData{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:  'Poppins';
+    font-size: 80%;
+    padding: 1%; 
+    margin-bottom: 1%;
+
+}
+
+}
+
+
